@@ -27,7 +27,7 @@ h1 {
 
 h2 {
     font-size: 2rem;
-    color: lightblue
+    color: blue;
 }
 
 .txt-type > .txt {
@@ -50,7 +50,7 @@ h2 {
   .footer {
       padding: 20px;
       text-align: center;
-      margin-top: 75px;
+      margin-top: 50px;
   }
 
   
