@@ -6,6 +6,7 @@ body {
     background: white; 
     color: navy;
     overflow: hidden;
+    text-align: center;
 }
 
 .container {
@@ -37,6 +38,15 @@ h2 {
 .fa {
     padding: 20px;
     font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+  .personal {
+    padding: 20px;
+    font-size: 15px;
     width: 50px;
     text-align: center;
     text-decoration: none;
