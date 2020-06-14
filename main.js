@@ -1,4 +1,4 @@
-const TypeWriter = function(txtElement, words, wait = 3000) {
+const TypeWriter = function(txtElement, words, wait = 2000) {
     this.txtElement = txtElement;
     this.words = words;
     this.txt = '';
@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', init);
 
 //Type Method
 TypeWriter.prototype.type = function() {
-    //current insex of word
+    //current index of word
     const currentWord = this.wordIndex % this.words.length;
 
     //get full text of current word
@@ -33,7 +33,7 @@ TypeWriter.prototype.type = function() {
     this.txtElement.innerHTML = `<span class"txt">${this.txt}</span>`;
 
     //initial typespeed
-    let typeSpeed = 300;
+    let typeSpeed = 100;
 
     if(this.isDeleting) {
         typeSpeed /= 2;
@@ -50,7 +50,7 @@ TypeWriter.prototype.type = function() {
         //move to the next word
         this.wordIndex++;
         //pause before typing
-        typeSpeed = 500;
+        typeSpeed = 300;
     }
 
     setTimeout(() => this.type(), typeSpeed)
