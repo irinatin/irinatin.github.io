@@ -64,11 +64,23 @@ h2 {
       margin-top: 50px;
   }
 
+  #page2 {
+      padding: 2.5rem;
+  }
+
+  
   #page2 .info {
       text-align: justify;
       font-size: 17px;
       color: navy;
   }
+
+  #page2 #floated {
+      float: left;
+      width: 700px;
+  }
+
+
 
   
 
