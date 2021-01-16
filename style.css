@@ -29,7 +29,9 @@ h1 {
 
 h2 {
     font-size: 1.3rem;
-    color: blue;
+    color: navy;
+    font-weight: bold;
+
 }
 
 .txt-type > .txt {
@@ -64,7 +66,7 @@ h2 {
       margin-top: 50px;
   }
 
-  #page2 {
+  #page2, #page3 {
       padding: 2.5rem;
   }
 
@@ -78,6 +80,11 @@ h2 {
   #page2 #floated {
       float: left;
       width: 700px;
+  }
+
+  #tips .tips {
+      text-align: justify;
+      font-size: 25px;
   }
 
 
