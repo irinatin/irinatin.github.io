@@ -19,12 +19,12 @@ body {
 }
 
 h1, h2 {
-    font-weight: 150;
     margin: 0.4rem;
 }
 
 h1 {
     font-size: 3.5rem;
+    font-weight: 150;
 }
 
 h2 {
