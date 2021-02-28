@@ -31,9 +31,19 @@ h2 {
     font-size: 1.3rem;
     color: navy;
     font-weight: bold;
-
 }
 
+h3 {
+    text-decoration: underline;
+}
+
+p {
+    text-align: left;
+}
+
+.note {
+    text-decoration: wavy;
+}
 .txt-type > .txt {
     border-right: 0.2rem solid red;
 }
