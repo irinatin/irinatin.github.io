@@ -59,7 +59,7 @@ p {
     padding: 20px;
     font-size: 15px;
     width: 50px;
-    text-align: center;
+    text-align: justify;
     text-decoration: none;
     margin: 5px 2px;
   }
@@ -83,12 +83,19 @@ p {
       text-align: justify;
       font-size: 17px;
       color: navy;
+      float: center;
+      padding-right: 2rem;
   }
 
   #page2 #floated {
-      float: left;
-      width: 700px;
+      float: center;
+      width: 650px;
   }
+
+  #page3 #tips {
+      text-align: justify;
+  }
+
 
 
 
